@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgb(37, 31, 31);
+}
+.side_first h1{
+    color: black;  
+}
+.side_first{
+    align-items: center;
+}
+
+button{
+    width: 50%;
+    margin-right: auto;
+    margin-top: 4%;
+
+}
+/* .container_div{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    box-shadow: 3px 0px 2px 3px ;
+    border-radius: 4px;
+} */
+.side_second{
+    align-items: center;
+}
+
+.img_div{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 10px 5px rgb(84, 84, 69);
+    /* box-shadow: -5px -3px -4px rgb(255, 255, 255); */
+    /* box-shadow: 20px 31px 31px rgb(241, 13, 13); */
+    
+}
+
+.img_div img{
+    border-radius: 50%;
+}
+.Heros-section{
+    height: 100vh;
+    position: relative;
+}
+.design_1{
+   
+
+}
+.effect-wrap .effect{
+    z-index: -1;
+    position: absolute;
+}
+.effect-1{
+    border: 5px solid rgb(204, 15, 141) ;
+    /* background-image: linear-gradient(40px,red,yellow); */
+    width: 30px;
+    height: 30px;
+    right: 200px;
+    bottom: 10%;
+    animation: spin 3s ease-in-out infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin2{
+    0%,100%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+}
+
+.effect-2{
+    border: 20px solid rgb(255, 118, 214) ;
+    width: 200px;
+    height: 200px;
+    right: 600px;
+    top: -40px;
+    border-radius: 50%;
+    animation: leftBounce 3s ease-in-out infinite;
+    transform: rotate(45deg);
+}
+.effect-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+    bottom: 20%;
+    left: 10%;
+    animation: topBounce 3s ease-in-out infinite;
+}
+@keyframes topBounce{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(25px)
+    }
+}
+@keyframes leftBounce{
+    0%,100%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+}
+.effect-3 div{
+    border: 2px solid rgb(243, 255, 10) ;
+
+    margin: 2px;
+    height: 3px;
+
+}
+.effect-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(234, 77, 255);
+    overflow: hidden;
+    left: 10%;
+    top: 10%;
+}
+.effect-4 div{
+    width: 3px;
+    height: 3px;
+    border: 2px solid pink;
+    margin: 0px 1px;
+    border-radius: 50%;
+}
+.effect-5{
+    border-top: 30px solid transparent;
+    border-left: 30px solid rgb(100, 248, 26);
+    left: 30%;
+    top: 30%;
+    animation: spin2 10s ease-in-out infinite;
+}
+.effect-5:before{
+    content: '';
+    border-top: 30px solid transparent;
+    border-left: 30px solid rgb(100, 248, 26);
+    opacity: 0.8;
+    animation: spin2 10s ease-in-out infinite;
+    left: -30px;
+    top: -30px;
+    position: absolute;
+}
+.MY-slfe{
+    color: whitesmoke;
+}
+.MY-slfe h1{
+    color: white;
+    font-weight: bold;
+}
+.effect-6{
+    z-index: -2;
+    position: absolute;
+}
+.main_effect_6{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid red; */
+    background-color: purple;
+    border-radius: 50%;
+    left: -77px;
+    top: -89px;
+}
+.main_effect_6b{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid red; */
+    background-color: orange;
+    border-radius: 50%;
+    bottom: -89px;
+    right: -72px;
+}
+.Heros-section{
+    z-index: -10;
+    background-color: var(--background-secondry);
+}

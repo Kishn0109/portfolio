@@ -1,0 +1,184 @@
+.skill_1{
+    background-color: rgb(255, 255, 255);
+    /* background-color: red; */
+    /* padding: 23px 101px; */
+    padding: 23px 37px; 
+    border-radius: 22px;
+    padding-left: 17px;
+    box-shadow: 0px 2px 10px grey;
+
+}
+.skill_2{
+    background-color: rgb(255, 255, 255);
+    /* background-color: red; */
+    /* padding: 23px 101px;*/
+        padding: 23px 37px; 
+    border-radius: 22px;
+    padding-left: 17px;
+    box-shadow: 0px 2px 10px grey;
+
+}
+.logo_head{
+    padding: 10px;
+}
+.skill_heading{
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.skill_container{
+    padding-bottom: 143px;
+    padding-top: 56px;
+}
+.frontend_bar{
+    border-radius: 2px solid orange;
+}
+.backend_bar{
+    border-radius: 2px solid rgb(38, 0, 255);
+
+}
+.back_score{
+    border: 1px solid red;
+    width: 100%;
+}
+.f_div{
+    width: 100%;
+    width: 100%;
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background-color: #464545c2;
+    box-shadow: 0px 2px 5px grey;
+    box-sizing: border-box;
+    margin: 24px 0px;
+    color: white;
+}
+.frontend_box{
+    border: none;
+    background: none;
+    background-color: transparent;
+    
+}
+
+.html_score{
+/* border: 1px solid #46eb46; */
+height: 18px;
+border-radius: 52px;
+background-image: linear-gradient(
+45deg
+, #51fb39 30%, #efe4e400 80%);
+}
+.backend_box{
+    border: none;
+    background: none;
+    background-color: transparent;
+    
+}
+.css_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #332cff 30%, #efe4e400 80%);
+}
+.scss_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #ff2cfb 30%, #efe4e400 75%);
+}
+.javascript_scoree{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #20ec57 30%, #efe4e400 130%);
+background-image: linear-gradient( 
+45deg
+ , #20ec57 30%, #efe4e400 75%);
+    width: 100%;
+    height: 18px;
+    border-radius: 17px;
+    /* border: 1px solid rgb(49, 243, 49); */
+}
+.react_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #dcfb0d 30%, #efe4e400 64%);
+}
+.redux_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #17c1f0 30%, #efe4e400 50%);
+}
+.node_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #37f84e 30%, #efe4e400 60%);
+}
+.express_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #1e69ff 30%, #efe4e400 50%);
+}
+.mongo_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #f31ae8 30%, #efe4e400 60%);
+}
+.firebase_score{
+    /* background-image: linear-gradient(); */
+    background-image: linear-gradient(
+45deg
+, #e9ff23 30%, #efe4e400 50%);
+}
+.skill_effect_1{
+    /* border: 2px solid red; */
+    background-color: #00ffb3;
+    border-radius: 20px;
+    width: 1012px;
+    height: 1133px;
+    position: absolute;
+    z-index: -1;
+    top: 361%;
+    transform: rotate(140deg);
+    margin-top:93px;
+    left: -70px;
+    background-image: linear-gradient(
+45deg
+, #00ebfa, #0bf8d4bf );
+top: 350%;
+    left: -604px;
+}
+.skill_effect_2{
+    border-radius: 20px;
+    width: 453px;
+    height: 754px;
+    position: absolute;
+    z-index: -1;
+    /* top: 361%; */
+    transform: rotate(140deg);
+    top: 484%;
+    right: -70px;
+    background-image: linear-gradient( 
+45deg
+ , #ff9800, #e9f80bd9 );
+}
+.skill_effect_3{
+    border-radius: 20px;
+    width: 453px;
+    height: 754px;
+    position: absolute;
+    z-index: -1;
+    /* top: 361%; */
+    transform: rotate(140deg);
+    /* top: 464%; */
+    /* right: -70px;
+    right: -254px; */
+    right: -254px;
+    background-image: linear-gradient( 
+        45deg
+         , #a3ff38, #0bf81dd9 );
+}
